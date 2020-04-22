@@ -1,0 +1,24 @@
+.page-body {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+
+  .hero {
+    // grid-area: hero;
+    display: grid;
+    grid-row: 1;
+    align-content: center;
+    justify-content: center;
+    background-color: lightgrey;
+    width: 100%;
+    height: 70vh;
+  }
+
+  .about-section {
+    // grid-area: about-section;
+    display: grid;
+    grid-row: 2;
+    align-content: center;
+    justify-content: center;
+    height: 75vh;
+  }
+}
