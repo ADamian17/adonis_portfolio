@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Card from '../../components/CardComponet/Card.Componet';
+// import Card from '../../components/CardComponet/Card.Componet';
 
 const Projects = () => {
   return (

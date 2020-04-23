@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
+import ResumaModal from '../ResumeModal/ResumeModal';
 import './Navbar.scss';
-// , NavLink
 
 class Navbar extends Component {
   constructor(props) {
@@ -19,7 +19,7 @@ class Navbar extends Component {
     });
   }
 
-  handleScroll = document.addEventListener('scroll', (e) => {
+  handleScroll = document.addEventListener('scroll', () => {
     let scrolled = document.scrollingElement.scrollTop;
     if (scrolled >= 120) {
       if (this.state.status !== 'changeColor') {
@@ -49,9 +49,9 @@ class Navbar extends Component {
           <Link to="/">ADP</Link>
         </div>
         <nav>
-          <Link href="/projects">Projects</Link>
-          <Link href="/contact">Contact</Link>
-          <Link href="/resume">resume</Link>
+          <Link to="/work">Work</Link>
+          <Link to="/contact">Contact</Link>
+          <ResumaModal />
         </nav>
       </header>
     );
@@ -59,32 +59,3 @@ class Navbar extends Component {
 }
 
 export default Navbar;
-
-// export default class Header extends React.Component {
-//   constructor(props) {
-//     super(props);
-
-//     this.listener = null;
-//     this.state = {
-//       status: "top"
-//     };
-//   }
-
-//   componentDidUpdate() {
-//     document.removeEventListener("scroll", this.listener);
-//   }
-
-//   render() {
-//     return (
-//       <p
-//         style={{
-//           backgroundColor: this.state.status === "top" ? "red" : "green",
-//           color: this.state.status === "top" ? "white" : "blue",
-//           position: "fixed"
-//         }}
-//       >
-//         Amir
-//       </p>
-//     );
-//   }
-// }
