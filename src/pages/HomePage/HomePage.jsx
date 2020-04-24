@@ -1,7 +1,7 @@
 import React from 'react';
 import './HomePage.scss';
 
-import AboutCard from '../../components/CardComponet/Card.Componet';
+import AboutCard from '../../components/CardComponet/AboutCard';
 
 const HomePage = () => {
   return (
@@ -10,9 +10,6 @@ const HomePage = () => {
         <h1>Hi my name is Adonis and I'm a Software Engineer </h1>
       </div>
       <div className="about-section">
-        <AboutCard />
-        <AboutCard />
-        <AboutCard />
         <AboutCard />
       </div>
     </div>

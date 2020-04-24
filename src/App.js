@@ -2,7 +2,7 @@ import React from 'react';
 
 import Routes from './config/routes';
 import Navbar from './components/Navbar/Navbar';
-import Footer from './components/Footer/Footer';
+// import Footer from './components/Footer/Footer';
 
 import './App.scss';
 
@@ -15,9 +15,9 @@ function App() {
       <div className="main">
         <Routes />
       </div>
-      <div className="footer">
+      {/* <div className="footer">
         <Footer />
-      </div>
+      </div> */}
     </div>
   );
 }

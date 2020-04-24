@@ -8,8 +8,7 @@
   display: grid;
   grid-template-areas:
     'header'
-    'main '
-    'footer';
+    'main ';
 
   .header {
     grid-area: header;
@@ -18,7 +17,7 @@
     grid-area: main;
   }
 
-  .footer {
-    grid-area: footer;
-  }
+  // .footer {
+  //   grid-area: footer;
+  // }
 }

@@ -41,7 +41,7 @@ class Navbar extends Component {
       <header
         className="navbar_container"
         style={{
-          backgroundColor: this.state.status === 'top' ? 'transparent' : 'yellow',
+          backgroundColor: this.state.status === 'top' ? 'transparent' : 'grey',
           position: 'fixed',
         }}
       >

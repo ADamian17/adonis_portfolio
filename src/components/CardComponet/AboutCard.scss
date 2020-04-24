@@ -1,0 +1,45 @@
+.card_container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-self: center;
+  justify-content: center;
+  width: 1100px;
+  height: 500px;
+
+  @media (max-width: 820px) {
+    width: 100%;
+  }
+
+  .image-holder {
+    display: flex;
+    // align-content: center;
+    justify-content: center;
+    width: 30%;
+    img {
+      width: 100%;
+    }
+
+    @media (max-width: 820px) {
+      width: 100%;
+    }
+  }
+
+  .text-holder {
+    align-self: flex-start;
+    width: 70%;
+
+    @media (max-width: 820px) {
+      width: 100%;
+    }
+
+    p {
+      margin: 20px;
+
+      span {
+        font-weight: bold;
+        font-size: xx-large;
+      }
+    }
+  }
+}

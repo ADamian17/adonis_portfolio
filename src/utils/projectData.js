@@ -11,7 +11,7 @@ export const ABOUT_ME = `Hola! I’m Adonis Martin, a classically trained Ballet
     Spanish), it also means that dance and music are in my blood. You can usually find me
     grooving to Bad bunny(reggaeton artists) while I’m working, and my creative background
     brings a fresh perspective. I’d love to connect with people and companies building great
-    things. Feel free to reach out at adonisdesuvikdo@gmail.com or (510)-987-6466.`,
+    things. Feel free to reach out at adonismartin90@gmail.com or (510)-987-6466.`,
   APP_DATA = [
     {
       personal_data: {
